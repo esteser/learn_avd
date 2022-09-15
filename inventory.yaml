@@ -1,0 +1,68 @@
+---
+all:
+  vars:
+    #ansible_connection: ansible.netcommon.network_cli
+    #ansible_network_os: arista.eos.eos
+    #ansible_user: admin
+    #ansible_password: password123
+  children:
+    #pod_fabric:
+      #super_spine:
+      #pod_spine:
+      #cab_leaf:
+    fabric:
+      hosts:
+        ess01.tripeee.zone:
+        ess02.tripeee.zone:
+        ess03.tripeee.zone:
+        ess04.tripeee.zone:
+        eps01.tripeee.zone:
+        eps02.tripeee.zone:
+        eps03.tripeee.zone:
+        eps04.tripeee.zone:
+        ecl01.tripeee.zone:
+        ecl02.tripeee.zone:
+        ecl03.tripeee.zone:
+        ecl04.tripeee.zone:
+        ecl05.tripeee.zone:
+        ecl06.tripeee.zone:
+    super_spine:
+      hosts:
+        ess01.tripeee.zone:
+        ess02.tripeee.zone:
+        ess03.tripeee.zone:
+        ess04.tripeee.zone:
+    pod_spine:
+      hosts:
+        eps01.tripeee.zone:
+        eps02.tripeee.zone:
+        eps03.tripeee.zone:
+        eps04.tripeee.zone:
+    cab_leaf:
+      hosts:
+        ecl01.tripeee.zone:
+        ecl02.tripeee.zone:
+        ecl03.tripeee.zone:
+        ecl04.tripeee.zone:
+        ecl05.tripeee.zone:
+        ecl06.tripeee.zone:
+        pf_sw01.tripeee.zone:
+    cab_leaf_rack1:
+      hosts:
+        ecl01.tripeee.zone:
+        ecl02.tripeee.zone:
+    cab_leaf_rack2:
+      hosts:
+        ecl03.tripeee.zone:
+        ecl04.tripeee.zone:
+    cab_leaf_rack3:
+      hosts:
+        ecl05.tripeee.zone:
+        ecl06.tripeee.zone:
+    cab_leaf_rack_pf:
+      hosts:
+       pf_sw01.tripeee.zone:
+
+
+
+
