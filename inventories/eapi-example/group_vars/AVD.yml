@@ -1,0 +1,37 @@
+---
+AVD:
+  children:
+    AVD_FABRIC:
+
+local_users:
+  # Username with no password configured
+  admin:
+    privilege: 15
+    role: network-admin
+    no_password: true
+
+  # Username with a password
+  demo:
+    privilege: 15
+    role: network-admin
+    sha512_password: " $6$BkgW8ceuzCekQos5$09rJy1WXsVcl5QcZ93CcH4aYSv.hyadoXGUwWmhOPP3OfqBLVwbwwOq8XKnwmLetbV01.INuH/Sc1VE/.tCYE0"
+
+# OOB Management network default gateway.
+mgmt_interface: Management1
+mgmt_gateway: 192.168.11.1
+mgmt_destination_networks:
+    - 0.0.0.0/0
+
+# dns servers.
+name_servers:
+  - 192.168.11.206
+  - 192.168.1.237
+
+# NTP Servers IP or DNS name, first NTP server will be preferred, and sourced from Management VRF
+ntp:
+  servers:
+  - name: uk.pool.ntp.org
+    preferred: true
+    vrf: MGMT
+  - name: fr.pool.ntp.org
+    vrf: MGMT

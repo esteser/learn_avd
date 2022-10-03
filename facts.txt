@@ -1,0 +1,44 @@
+eps01.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.9:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+eps02.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.10:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+eps03.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.11:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl01.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.13:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+eps04.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.12:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl02.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.14:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl03.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.15:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl05.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.17:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl04.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.16:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+ecl06.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.18:443/command-api: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+}
+pf-sw01.tripeee.zone | FAILED! => {
+    "changed": false,
+    "msg": "Could not connect to https://192.168.11.19:443/command-api: [Errno 111] Connection refused"
+}

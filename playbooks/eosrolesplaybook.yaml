@@ -1,0 +1,7 @@
+---
+- hosts: DC1_FABRIC
+  tasks:
+    - name: Run AVD eos_designs
+      import_role:
+        tasks_from: upgrade
+        name: arista.avd.eos_designs
